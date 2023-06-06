@@ -18,7 +18,7 @@ def parse_ts(ts: str) -> datetime.timedelta:
 extension_list = ('*.mp3', '*.flac')
 combined = AudioSegment.empty()
 text_length = []
-os.chdir('.')  # Path where the files are located
+os.chdir('.')  # Path where the files are located.
 
 for extension in extension_list:
     for file_to_merge in glob.glob(extension):
