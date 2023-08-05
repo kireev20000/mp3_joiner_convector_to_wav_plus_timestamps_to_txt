@@ -38,7 +38,7 @@ for extension in extension_list:
             mp3_tag_artist = mp3_tags['TAG']['artist'] + ' - '
 
         list_lenght.append(
-                            str(start).split('.')[0] + ' Track ' +
+                            str(start).split('.')[0] + ' ' +
                             (mp3_tags['TAG']['track']).split('/')[0] + ' ' + mp3_tag_artist +
                             mp3_tags['TAG']['title'] + ' ' + mp3_tag_grouping
         )
