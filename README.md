@@ -1,4 +1,3 @@
-
 # mp3 joiner convector to wav plus timestamps to txt
 
 Утилита собирает все файлы MP3 в текущей директории преобразует их в WAV-формат, затем запускает процесс конвертации WAV файла в MKV h264 c помощью FFMPEG.  
